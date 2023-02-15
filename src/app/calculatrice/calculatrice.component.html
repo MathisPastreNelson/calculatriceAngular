@@ -1,0 +1,12 @@
+<div ngClass="calcul_container">
+
+    
+    <input type="number"[(ngModel)]="value1"/>
+    <input type="number" [(ngModel)]="value2" />
+    <button (click)="add()">+</button>
+    <button (click)="substract()">-</button>
+    <button (click)="multiply()">*</button>
+    <button (click)="divide()">/</button>
+    
+    {{result}}
+</div>
